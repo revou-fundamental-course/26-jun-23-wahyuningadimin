@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>E-Groceries</title>
+</head>
+<body>
+    <!---- header                                                    -->
+    <header>
+        <section id="headerNavigation">
+            <div class="top-bar">
+                <a href="#headerNavigation"><img src="assets/logo.png" class="logo"></a>
+                <div class="top-button">  
+                    <a href="#headerNavigation" class="btn">Home</a>
+                    <a href="#package" class="btn">Our Package</a>
+                    <a href="#call" class="btn">Call Us</a>
+            </nav> 
+        </section>
+        <section id="headerTitle">
+            <h1 id="title">Top Rated E-Groceries Shop in Indonesia</h1>
+            <h4 id="subtitle">Everyday with Fresh Ingredients</h4>
+        </section>
+    </header>
+
+    <!-- main picture and call us form -->
+    <main>
+        <section id="callUs">
+            <article id="article">
+                <img src="assets/vegetable.jpg" height="500px">
+                <br>
+            <article id="review">
+                <h3 id="caption"> <i>"setiap hari beli sayur buah yang fresh disini"</i></h3>
+                <img src="assets/user.png" class="user" width="50px">
+            <article id="userId">
+                <p><b>Florence Hughes</b><br><i>Ibu Rumah Tangga, 28</i></p>
+            </article>    
+            </br>
+            </article>
+            </article>
+            
+            <section id="form">
+                <article id="contactUsSales">
+                    <h4 class="titleSubtitle">Contact Us</h4>
+                <h6 class="titleSubtitle">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</h6>
+                <form>
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                        <span id="name-error"></span>
+                    </div>
+            
+                    <div class="input-group">
+                        <label>Phone Number</label>
+                        <input type="tel" placeholder="123 456 7890" id="contact-phone" onkeyup="validatePhone()">
+                        <span id="phone-error"></span>
+                    </div>
+            
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your Email" id="contact-email" onkeyup="validateEmail()">
+                        <span id="email-error"></span>
+                    </div>
+            
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Enter your message" id="contact-message" onkeyup="validateMessage()"></textarea>
+                        <span id="message-error"></span>
+                    </div>
+            
+                    <button onclick="return validateForm()">SUBMIT</button>
+                    <span id="submit-error"></span>
+                    
+                </section>
+                </form>
+                </article>
+            <main>
+                <div>
+                    <script src="script.js"></script> 
+                </div>
+                <!-- <section id="fillIn">
+                    <form action="table"></form>
+                      <label for="name">Your Name: </label>
+                      <br>
+                      <input id="first and last name" type="text" placeholder="First and Last name" />
+                      <br>
+                      <br>
+                      <br>
+                      <label for="email address">Email Address: </label>
+                      <br>
+                      <input id="email address" type="email" placeholder="example@email.com">
+                      <br>
+                      <br>
+                      <br>
+                      <label for="phone number">Phone Number: </label>
+                      <br>
+                      <input id="phone number" type="tel" placeholder="Phone Number" />
+                      <br>
+                      <br>
+                      <br>
+                      <label for="message">Message:</label>
+                      <textarea cols="30" rows="5" type="text" placeholder="Message"></textarea>
+                      <br>
+                      <br>
+                      <br>
+                      <button type="button" id="submitButton" input class="button" type="send">SUBMIT</button>
+                      <br>
+                  </section>
+                  </section> -->
+            </section>
+        </section>
+    </main>
+
+
+ <!-- banner -->
+    <section id="banner">
+            <img class="slider" src="assets/1.jpg">
+            <img class="slider" src="assets/2.jpg">
+            <img class="slider" src="assets/3.jpg">
+            <script src="js/script.js"></script>
+          </div>
+
+    <!-- our package  -->
+    <section class="package" id="package">
+        <h1 class="heading">Our Package</h1>
+        
+        <div class="box-container">
+        
+            <div class="box">
+                <div class="crop">
+                <img src="assets/fresh vegetable.jpg">
+                <h3 id="text">Fresh Vegetable</h3>
+                <p id="desc">Sayuran segar langsung dari sumber pertanian terbaik</p>
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="crop">
+                <img src="assets/fresh fruit.jpg" width="200px">
+                <h3 id="text">Fresh Fruit</h3>
+                <p id="desc">Buah dengan kualitas terbaik dari lokal atau import dan harga yang menarik</p>
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="crop">
+                <img src="assets/instant delivery.jpg" width="200px">
+                <h3 id="text">Instant Delivery</h3>
+                <p id="desc">Dikirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu</p>
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="crop">
+                <img src="assets/kitchen ingredient.jpg" width="200px">
+                <h3 id="text">Kitchen Ingredient</h3>
+                <p id="desc">Bumbu dapur lengkap untuk keperluan memasak kamu</p>
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="crop">
+                <img src="assets/kitchen set.jpg" width="200px">
+                <h3 id=text>Kitchen Set</h3>
+                <p id="desc">Segala jenis alat masak untuk membantu kamu memasak</p>
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="crop">
+                <img src="assets/bundling set.jpg" width="200px">
+                <h3 id="text">Bundling Set</h3>
+                <p id="desc">Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapurmu</p>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+<!-- call to action -->
+    <section class="call" id="call">
+        <h2 class="waitFor">So what are you waiting for? <br>Buy your fresh vegetables and fruits from the comfort of your own home!</h2>
+        <a style="color: #ffffff;
+        background-color: #141a34;
+        border: none;
+        border-radius: 6px;
+        padding: 12px 20px;
+        font-size: 15px;
+        margin-left: 525px;
+        align-items: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 50px;" href="https://revou.co/">Sign me up!</a>
+
+        
+<!-- footer -->
+<section class="footer">
+    <div class="credit"> 
+        Term of Service <span> &emsp; Privacy Policy </span>
+        <br>
+        ©2023 <span> &ensp; RevoU </span>
+        </div>
+</html> 
